@@ -8,12 +8,19 @@
 .nav-color{
     text-shadow: 1px 1px 1px rgba(0,0,0,0.3) !important;
     color:#8a4762!important;
-    font-weight: 500;
-    font-size: 0.8rem;
+    font-weight: 650;
+    font-size: 1rem;
+}
+
+.navbar-brand{
+    height: 5rem;
+    width: 10rem;
+    margin-top: 0rem;
 }
 .navbar{
     flex-direction: row!important;
 }
+
 .bg-nav a:hover{
     color:#e56266!important;
 }
