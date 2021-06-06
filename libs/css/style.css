@@ -1,0 +1,53 @@
+.bg-nav{
+    background-color:#ffb0bd!important;
+}
+*{
+    transition:  0.4s!important;
+    font-family: "Nunito"!important;
+}
+.nav-color{
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3) !important;
+    color:#8a4762!important;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+.navbar{
+    flex-direction: row!important;
+}
+.bg-nav a:hover{
+    color:#e56266!important;
+}
+.btn-search{
+    background-color: #ffb0bd!important;
+}
+.border-search{
+    border: 2px solid #ffb0bd!important;
+}
+.border-search:focus{
+    outline: none!important;
+    box-shadow: none!important;
+}
+html,body{
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+.card-overlay{
+    width: 100%;
+    position: absolute!important;
+    height: 0;
+    bottom: 0 !important;
+    background-color:#ffb0bd!important;
+    opacity: 0;
+}
+.card:hover .card-overlay{
+    opacity: 1;
+    height: 25%;
+}
+.card{
+    overflow: hidden!important;
+}
+.card:hover img{
+    transform: scale(1.2);
+}
