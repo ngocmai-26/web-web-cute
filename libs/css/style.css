@@ -2,7 +2,6 @@
     background-color:#ffb0bd!important;
 }
 *{
-    transition:  0.4s!important;
     font-family: "Nunito"!important;
 }
 .nav-color{
@@ -18,6 +17,8 @@
     color:#e56266!important;
 }
 .btn-search{
+    border-color: transparent!important;
+
     background-color: #ffb0bd!important;
 }
 .border-search{
@@ -30,8 +31,17 @@
 html,body{
     margin: 0;
    padding: 0;
-   box-sizing: border-box;
+   box-sizing: border-box!important;
 
+}
+.dropdown-toggle::after{
+    content: none !important;
+}
+.dropdown-menu{opacity: 0!important;transition: 0.4s!important;}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    opacity: 1!important;
+    transition: 0.4s!important;
 }
 .card-overlay{
     width: 100%;
@@ -40,14 +50,32 @@ html,body{
     bottom: 0 !important;
     background-color:#ffb0bd!important;
     opacity: 0;
+    transition:  0.4s!important;
+
 }
 .card:hover .card-overlay{
     opacity: 1;
+    transition:  0.4s!important;
     height: 25%;
+}
+.card img{
+    height:100%!important;
+    transition:  0.4s!important;
+
+    
 }
 .card{
     overflow: hidden!important;
+    max-height:250px!important;
 }
+
 .card:hover img{
+    transition:  0.4s!important;
+
     transform: scale(1.2);
+}
+@media (max-width:576px){
+    .card{
+        max-height: 150px!important;
+    }
 }
