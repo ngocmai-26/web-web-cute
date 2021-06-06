@@ -524,15 +524,3 @@ footer .container .noi-dung.about p{
   outline: 0;
   padding: 8px 4px;
 }
-section{
-  margin-top: 5px;
-}
-section{
-  overflow: hidden;
-   width: 1520px;
-   height: 560px;
-}
-section img{
-  width: 100%;
-  height: auto;
-}
